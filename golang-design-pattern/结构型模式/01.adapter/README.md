@@ -1,0 +1,4 @@
+适配器模式用于转换一种接口适配另一种接口
+
+实际使用中Adaptee一般为接口，并且使用工厂函数生成实例
+在Adapter中匿名组合Adaptee接口，所以Adapter类也就拥有SpecificRequest方法,又因为GO语言非侵入式语言特称，其实Adapter也适配Adaptee
